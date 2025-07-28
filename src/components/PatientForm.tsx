@@ -35,12 +35,12 @@ const PatientForm = () => {
         reset(); // Resetea el formulario después de agregar el paciente
     }
    return (
-    <div className="md:w-1/2 lg:w-3/5 mx-10  ">
+    <div className="md:w-1/2 lg:w-3/5 mx-10  mt-10"> 
 
         <p className="text-lg mb-1.5 text-center text-white ">Añade Pacientes </p>
 
         <form 
-            className="bg-white opacity-85 shadow-md rounded-lg py-5 px-3 mb-5"
+            className="bg-white opacity-85 shadow-md rounded-lg py-5 px-3 mb-5 mt-10"
             noValidate
             onSubmit={handleSubmit(registerPaciente)}
         >
