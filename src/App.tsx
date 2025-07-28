@@ -6,7 +6,7 @@ const App = () => {
   return (
     <>
       <div 
-        className="container bg-cover bg-center bg-fixed bg-[url('src/img/fondo-01.jpg')]"
+        className="container bg-cover bg-center bg-fixed bg-[url('public/img/fondo-01.jpg')]"
       >
         {/* El contenido estará por encima de la imagen de fondo */}
         <h1 className="font-bold text-3xl pt-6 text-center md:w-2/3 md:mx-auto text-white z-10 relative">
