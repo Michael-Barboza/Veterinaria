@@ -5,8 +5,8 @@ import PatientsList from "./components/PatientsList";
 const App = () => {
   return (
     <>
-      <div 
-        className="container min-h-screen bg-cover bg-center bg-fixed"
+      <div
+        className="w-screen h-screen bg-cover bg-center bg-fixed"
         style={{ backgroundImage: "url('/fondo-01.jpg')" }}
       >
         {/* El contenido estará por encima de la imagen de fondo */}
