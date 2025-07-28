@@ -10,7 +10,7 @@ const App = () => {
         style={{ backgroundImage: "url('/fondo-01.jpg')" }}
       >
         {/* El contenido estará por encima de la imagen de fondo */}
-        <h1 className="font-bold text-3xl pt-6 text-center md:w-2/3 md:mx-auto text-white z-10 relative">
+        <h1 className="font-bold text-3xl pt-6 text-center md:w-2/3 md:mx-auto pt-10 text-white z-10 relative">
           Registro de Pacientes
           <span className="text-fuchsia-900">Veterinaria</span>
         </h1>
